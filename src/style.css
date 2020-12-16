@@ -1,0 +1,166 @@
+/*Menu*/
+.nav{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    font-size: 25px;
+}
+.imgmenu{
+    width: 100px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Inicial*/
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    
+}
+.inicial{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Produtos*/
+.categorias{
+    cursor: pointer;
+    font-weight: bold;
+    position: static;
+    float: left;
+    width: 20%;
+    
+}
+.imgprodu{
+    width: 150px;
+    
+}
+
+.p2{
+   color: red; 
+}
+#li{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.boxprodu{
+    float: left;
+    width: 25%;
+    height: 35vh; 
+   
+}
+.divprodu{
+    width:300px;
+    height: 10px;
+    border: 0px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.produtos{
+    width: 100%;
+    height: 30vh; 
+
+}
+
+
+/*Pedidos*/
+button{
+    display: inline-block;
+     font-weight: 400;
+     text-align: center;
+     vertical-align: middle;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     background-color: transparent;
+     border: 1px solid transparent;
+     padding: 0.375rem 0.75rem;
+     font-size: 1rem;
+     line-height: 1.5;
+     border-radius: 0.25rem;
+     width: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: red;
+    
+}
+
+/*Contatos*/
+section{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+.img{
+    width: 50px;
+}
+form{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem;
+}
+.coment{
+    text-align: left;
+    margin: 20px;
+}
+
+/*Loja*/
+table{
+    color:black;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Footer*/
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    
+    
+}
+.imgfoot{
+    width: 300px;
+    height: 70px;
+}
+.p{
+    background-color: red;
+    color: white;
+}
+
